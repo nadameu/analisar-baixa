@@ -1,0 +1,41 @@
+{
+	"name": "analisar-baixa",
+	"version": "0.1.0",
+	"description": "Análise de processos para baixa",
+	"private": true,
+	"scripts": {
+		"test": "jest",
+		"build": "rollup -c --environment BUILD:production",
+		"watch": "rollup -c -w --environment BUILD:development"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nadameu/analisar-baixa.git"
+	},
+	"keywords": [
+		"greasemonkey",
+		"tampermonkey",
+		"eproc"
+	],
+	"author": "nadameu",
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://github.com/nadameu/analisar-baixa/issues"
+	},
+	"homepage": "https://github.com/nadameu/analisar-baixa#readme",
+	"devDependencies": {
+		"@types/jest": "^24.0.17",
+		"jest": "^24.8.0",
+		"rollup": "^1.19.3",
+		"rollup-plugin-node-resolve": "^5.2.0",
+		"rollup-plugin-serve": "^1.0.1",
+		"rollup-plugin-terser": "^5.1.1",
+		"rollup-plugin-typescript": "^1.0.1",
+		"ts-jest": "^24.0.2",
+		"typescript": "^3.5.3",
+		"userscript-meta": "^1.0.1"
+	},
+	"dependencies": {
+		"tslib": "^1.10.0"
+	}
+}
